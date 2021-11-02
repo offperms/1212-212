@@ -1,0 +1,3 @@
+local A_1 = ";refresh"
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
